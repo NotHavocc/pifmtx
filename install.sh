@@ -46,7 +46,7 @@ echo "Installing PiFM-RDS to /usr/local/bin..."
 sudo cp pi_fm_rds /usr/local/bin/
 sudo chmod +x /usr/local/bin/pi_fm_rds
 
-RUST_TX_DIR="$HOME/pifmtx"
+RUST_TX_DIR="$HOME/pifmtx/pifmtx"
 RUST_REPO_URL="https://github.com/NotHavocc/pifmtx"
 
 if [ ! -d "$RUST_TX_DIR" ]; then
