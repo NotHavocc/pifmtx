@@ -6,7 +6,7 @@ echo "=== Updating system packages ==="
 sudo apt update && sudo apt upgrade -y
 
 echo "=== Installing dependencies ==="
-sudo apt install -y sox libsox-fmt-mp3 git build-essential curl pkg-config libssl-dev
+sudo apt install -y sox libsox-fmt-mp3 git build-essential curl pkg-config libssl-dev libsndfile1-dev libraspberrypi-dev raspberrypi-kernel-headers
 
 echo "=== Installing Rust ==="
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
